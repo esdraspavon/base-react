@@ -6,7 +6,7 @@ import "./styles/GlobalStyles.css";
 import Context from "./Context";
 ReactDOM.render(
   <Context.Provider>
-  <App />
+    <App />
   </Context.Provider>,
   document.getElementById("app")
 );
