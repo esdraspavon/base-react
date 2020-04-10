@@ -1,4 +1,4 @@
 import React from "react";
-import {ButtonComponent} from './styles'
+import {Button} from './styles'
 
-export default () => (<ButtonComponent>Hola</ButtonComponent>);
+export default () => (<Button>Hola</Button>);
