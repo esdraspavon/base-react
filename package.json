@@ -1,14 +1,14 @@
 {
   "name": "baseproject",
   "version": "1.0.0",
-  "description": "Base project",
+  "description": "Base project for react aplications",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "webpack --mode production",
     "start": "webpack-dev-server --open --mode development"
   },
-  "author": "Devlights",
+  "author": "Esdras Pavon",
   "license": "MIT",
   "dependencies": {
     "react": "16.12.0",
