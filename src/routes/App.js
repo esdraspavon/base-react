@@ -4,7 +4,7 @@ import { BrowserRouter, Switch, Route, Redirect } from "react-router-dom";
 import Home from "../pages/Home";
 // import NotFound from "../pages/NotFound";
 // import Layout from "../containers/Layout";
-import PrivateRoute from "./PrivateRoute";
+// import PrivateRoute from "./PrivateRoute";
 
 import { Context } from "../Context";
 
@@ -15,13 +15,6 @@ const App = () => {
       {/* <Layout> */}
       <Switch>
         <Route exact path="/" component={Home} />
-        <PrivateRoute
-          exact
-          path="/veterinary-care"
-          component={VeterinaryCare}
-        />
-        <Route exact path="/login" component={Login} />
-
         {/* <PrivateRoute
           exact
           key="some-key"

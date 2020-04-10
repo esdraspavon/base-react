@@ -1,4 +1,7 @@
 import React from "react";
 import {Button} from './styles'
 
-export default () => (<Button>Hola</Button>);
+const Home = () => (<Button>Hola</Button>);
+
+export default Home;
+

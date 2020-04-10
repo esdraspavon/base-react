@@ -1,3 +1,5 @@
 import React from 'react';
 
-export default ({className})=>(<button className={className}>{children}</button>)
+const Button = ({children, className}) => (<button className={className}>{children}</button>)
+
+export default Button;
